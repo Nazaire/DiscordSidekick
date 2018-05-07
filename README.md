@@ -28,8 +28,9 @@ Now take your auth-token from earlier and store it in the main directory in a fi
 }
 ```
 
-Start up your discord bot like so:
+In the main directory, install the dependencies and start up your discord bot like so:
 ```
+npm install
 npm run start
 ```
 
