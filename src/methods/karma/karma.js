@@ -21,7 +21,6 @@ try {
     store = require('./karma-store.json')
 }
 catch (e) {
-    console.log(e)
     store = {}
 }
 
