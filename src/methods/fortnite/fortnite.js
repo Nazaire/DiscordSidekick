@@ -1,5 +1,13 @@
-// Fortnite module for discord-sidekick
-// Author Dylan Kay
+/* 
+Fornite module for discord-sidekick
+Author Dylan Kay
+
+COMMANDS:
+    !fn where
+    	This will respond a random location of where to drop.
+    	Note, this can contain any words as well. ie. !fn where to?, !fn where are we dropping?
+*/
+
 
 let locations = [
 	"Anarchy Acres",

@@ -1,5 +1,15 @@
-// Karma module for discord-sidekick
-// Author Dylan Kay
+/* 
+Karma module for discord-sidekick
+Author Dylan Kay
+
+COMMANDS:
+    @Name ++
+        Adds one to the mentioned users score
+    @Name --
+        Subtracts one to the mentioned users score
+    !karma rank
+        Shows a table of all karma ranks
+*/
 
 const fs = require('fs');
 

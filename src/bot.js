@@ -1,4 +1,4 @@
-// https://discordapp.com/oauth2/authorize?client_id=442897206710632458&scope=bot&permissions=3136
+// https://discordapp.com/oauth2/authorize?client_id=CLIENT_ID&scope=bot&permissions=3136
 
 const fs = require('fs');
 const Discord = require("discord.js");
