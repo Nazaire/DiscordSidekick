@@ -1,0 +1,11 @@
+{
+	"name": "discord-sidekick",
+	"version": "0.0.0",
+	"description": "Your trusty sidekick",
+	"main": "bot.js",
+	"author": "Dylan Kay",
+	"dependencies": {
+		"discord.js": "^11.3.2"
+	},
+	"scripts": { "start" : "node ./src/bot.js" } 
+}

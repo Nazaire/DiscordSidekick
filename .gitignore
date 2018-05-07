@@ -57,3 +57,11 @@ typings/
 # dotenv environment variables file
 .env
 
+
+.DS_Store
+
+auth\.json
+
+states\.json
+
+src/**/*.json
