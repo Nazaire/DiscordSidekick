@@ -1,0 +1,2 @@
+# DiscordSidekick
+Your trusty sidekick!
