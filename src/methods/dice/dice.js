@@ -49,6 +49,7 @@ function onMessage(msg){
 		//console.log(output[i]);
 		msg.channel.send(output[i]);
 	}
+}
 
 
 module.exports = {
