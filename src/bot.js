@@ -1,4 +1,4 @@
-// https://discordapp.com/oauth2/authorize?client_id=CLIENT_ID&scope=bot&permissions=3136
+// https://discordapp.com/oauth2/authorize?client_id=CLIENT_ID&scope=bot&permissions=445504
 
 const fs = require('fs');
 const Discord = require("discord.js");
@@ -43,7 +43,14 @@ client.on('message', msg => {
         // Send the event to each method
         for (var key in methods) {
             m = methods[key]
-            if (m.enabled && m.hasOwnProperty('onMessage')) m.onMessage(msg)
+
+            if (m.enabled && m.hasOwnProperty('onMessage')) {
+                try {
+                    m.onMessage(msg)
+                } catch (err) {
+                    console.log("FAIL - Method: " + key + ".onMessage()\n", err)
+                }
+            }
         }
     }
 });
